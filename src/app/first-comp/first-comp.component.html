@@ -1,0 +1,8 @@
+<div class= "face-snap-card" [ngClass]= "{snapped: buttonText !=='Oh, snap!'}">
+<!-- <div [class]= "buttonText==='Oh, snap!' ? 'face-snap-card' : 'face-snap-card snapped'"> -->
+    <p>{{78787877.35 | number: '1.0-1'}}</p>
+    <p>{{344.36 | currency: 'EUR' : 'code'}}</p>
+    <h1>{{myExple.title | uppercase }}</h1>
+    <p>Mis en ligne le: {{myExple.createdDate | date: 'EEEE, d MMMM, y à HH:mm'}}</p>
+   <button (click)="onViewExple()">View</button>
+</div>
